@@ -11,7 +11,7 @@
 <link rel="shortcut icon" href="images/camera-128.png" />
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="landingPage.css">
+	<link rel="stylesheet" type="text/css" href="styles/landingPage.css">
 </head>
 <body>
 <!--begin modal window-->
@@ -200,27 +200,7 @@ Alles gute zum Geburtstag und viel Spaß mit deiner eigenen Website!</p>
     <p>&copy; 2018 Katarina Ostaeva all rights reserved</p>
   </section>
 	</footer>
-  <script>
-    $(function() {
-        $('#go-slow*[href*=\\#]:not(button[href*=\\#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-  </script>
-  <script>
-  $('*[data-slide-to]').on('click', function(){
-    $('#myGallery').carousel($(this).data('slide-to'));
-});
-  </script>
+<script src="js/scripts.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.2.min.js" integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
