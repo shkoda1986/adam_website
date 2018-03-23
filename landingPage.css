@@ -75,7 +75,6 @@ font-size: 14px;
 color: rgb(254, 253, 253);
 /* border: solid 3px; */
 }
-}
 
 .dropdown-content a:hover {background-color: #111;
 opacity: 1;}
@@ -127,25 +126,12 @@ font-weight: normal;
   background-size: cover;
   min-height: 960px;
   margin: 0px 4% 15px 4%;
-  /* background-size: cover;
-  min-height: 734px;
-  margin: 0px 25px 0 25px; */
-  /* display: flex;
-  justify-content: space-around;
-      flex-wrap: wrap; */
-      /* display: flex;
-   flex-direction: row;
-   justify-content: space-between; */
 }
 .aboutme{
   display: flex;
   margin: 40px 0 20px 0;
 }
 .adam{
-  /* background: url(images/aboutme.png) 50% no-repeat;
-  background-size: cover;
-  min-height: 734px;
-  margin: 0px 25px 0 25px; */
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -163,9 +149,6 @@ font-family: "Arial";
 color: rgb(253, 252, 253);
 position: static;
 padding: 70px 0 0 0;
-/* left: 41%;
-top: 27%;
-font-weight: bold; */
 }
 .adam-container{
   display: flex;
@@ -379,7 +362,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 11px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 .header-menu-item a:hover {
@@ -536,7 +519,7 @@ align-items: center;
     padding-top: 3%;
 
 }
-.firstScreen {
-  background: url(images/bg first screen.png) 50% no-repeat;
-  font-family: "Avenir";
-}
+/*.firstScreen {*/
+  /*background: url(images/bg first screen.png) 50% no-repeat;*/
+  /*font-family: "Avenir";*/
+/*}*/
